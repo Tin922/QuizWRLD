@@ -8,7 +8,6 @@ import {
 import { db } from "../db/drizzle";
 import { answers, categories, questions, quizzes, ratings } from "../db/schema";
 import { eq, sql, and } from "drizzle-orm";
-import CategoriesSection from "../components/categoriesSection";
 
 const MINUTE = 60;
 const HOUR = 60 * MINUTE;
